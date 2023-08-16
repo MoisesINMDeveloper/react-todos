@@ -1,0 +1,21 @@
+.todo-search {
+    padding-left: 18px;
+    padding-right: 18px;
+    outline-color: #69f1f1;
+width: 279px;
+height: 64px;
+border:solid 3px #525151;
+color: #AAAAAA;
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.todo-search:hover{
+    border:solid 3px #69f1f1;
+}
+.todo-search:focus{
+    border:solid 3px #69f1f1;
+}

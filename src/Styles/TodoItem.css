@@ -1,0 +1,148 @@
+@media (max-width: 450px) { 
+    li {
+display: flex;
+border-radius: 2px;
+background: #FAFAFA;
+box-shadow: 0px 5px 50px 0px rgba(32, 35, 41, 0.15);
+justify-content: center;
+align-items: center;
+margin: 24px 10px 0 10px;
+min-width: 300px;
+max-width: 300px;
+height: 100px;
+flex: 1;
+}
+.parrafo {
+width: 243px;
+color: #1E1E1F;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+margin: 35px 15px 35px 35px;
+}
+.parrafo-completed{
+    text-decoration: line-through;
+}
+
+.img-x {
+    position: absolute;
+    margin-top: -92px;
+    margin-left: 290px;
+
+    background-image: url("../Images/X.png");
+    height: 24px;
+    width: 24px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+.img-x:hover {
+    cursor: pointer;
+    background-image: url("../Images/Xhover.png");
+    height: 24px;
+    width: 24px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+
+}
+.img-v {
+    position: absolute;
+    cursor: pointer;
+    margin-right: 240px;
+    width: 30px;
+    height: 30px;
+    background-image: url("../Images/Check-red.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    transition: .2s ease;
+    
+}
+.img-v--active {
+    cursor: inherit;
+    background-image: url("../Images/Check.png");
+
+    width: 30px;
+    height: 30px;
+}
+}
+
+/* RESPONSIVE 451px MAX WIDHT 900 */
+@media(min-width: 451px) and (max-device-width: 5000px) { 
+li {
+        display: flex;
+border-radius: 2px;
+background: #FAFAFA;
+box-shadow: 0px 5px 50px 0px rgba(32, 35, 41, 0.15);
+justify-content: center;
+align-items: center;
+margin-top: 24px;
+margin-left: 10px;
+margin-right: 10px;
+min-width: 300px;
+max-width: 300px;
+height: 100px;
+flex: 1;
+}
+.parrafo {
+width: 243px;
+color: #1E1E1F;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+margin: 35px 15px 35px 35px;
+}
+.parrafo-completed{
+    text-decoration: line-through;
+}
+
+.img-x {
+    position: absolute;
+    margin-top: -92px;
+    margin-left: 290px;
+
+    background-image: url("../Images/X.png");
+    height: 24px;
+    width: 24px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+.img-x:hover {
+    cursor: pointer;
+    background-image: url("../Images/Xhover.png");
+    height: 24px;
+    width: 24px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+
+}
+.img-v {
+    position: absolute;
+    cursor: pointer;
+    margin-right: 240px;
+    width: 30px;
+    height: 30px;
+    background-image: url("../Images/Check-red.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    transition: .2s ease;
+    
+}
+.img-v--active {
+    cursor: inherit;
+    background-image: url("../Images/Check.png");
+
+    width: 30px;
+    height: 30px;
+}
+}

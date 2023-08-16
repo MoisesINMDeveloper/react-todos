@@ -1,0 +1,21 @@
+h1 {
+    margin-top: 50px;
+    min-width: 320px;
+    height: 58px;
+
+color: #1E1E1F;
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+span {
+    color: #1E1E1F;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}

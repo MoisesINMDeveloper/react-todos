@@ -1,0 +1,24 @@
+
+
+.button-blue {
+    display: flex;
+    position: fixed;
+    border:none;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    top: 500px;
+    right: 10px;
+    background-color: rgba(252, 252, 252, 0);
+    background-image: url(../Images/button-blue.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    transform: rotate(0);
+    transition: .5s ease;
+    z-index: 10;
+}
+.button-blue:hover {
+    transform: rotate(224deg);
+}
